@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.ehcache.org/ehcache.xsd"
+	updateCheck="true"
+	monitoring="autodetect">
+	<cache name="hackerStories"
+		maxEntriesLocalHeap="10000"
+		eternal="false"
+		timeToIdleSeconds="900"
+		timeToLiveSeconds="900"
+		memoryStoreEvictionPolicy="LFU"></cache>
+</ehcache>
